@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text to Speech Converter</title>
+</head>
+<body>
+    <h2>Enter text to convert to speech</h2>
+    <form action="/convert" method="post">
+        <textarea name="text" rows="4" cols="50"></textarea><br>
+        <label for="language">Select Language:</label>
+        <select name="language">
+            <option value="en">English</option>
+            <option value="ta">Tamil</option>
+            <option value="hi">Hindi</option>
+        </select><br>
+        <input type="submit" value="Convert to Speech">
+    </form>
+</body>
+</html>
